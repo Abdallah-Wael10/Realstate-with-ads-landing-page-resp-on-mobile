@@ -283,7 +283,7 @@ export default function Home() {
     </section>
  
 
-    {/* {showAds && <Ads onClose={handleClose} />} */}
+    {showAds && <Ads onClose={handleClose} />}
   
     </div>
   );
